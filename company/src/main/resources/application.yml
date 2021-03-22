@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/CompanyManagement
+    username: postgres
+    password: 1
